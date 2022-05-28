@@ -291,7 +291,7 @@
   
     /* shorten box */
     .shorten-box {
-      width: 800px;
+      width: 500px;
       height: 180px;
       flex-direction: column;
       align-items: center;
@@ -301,13 +301,13 @@
       border-radius: 15px;
     }
     .shorten-box input {
-      width: 700px;
+      width: 400px;
       height: 50px;
       margin: 20px 0 0px 0;
       
     }
     .shorten-box button {
-      width: 740px;
+      width: 440px;
       height: 50px;
       margin: 0;
       margin-bottom: 25px;
@@ -319,7 +319,7 @@
       align-items: center;
     }
     .links-box {
-      width: 780px;
+      width: 480px;
       height: 160px;
       flex-direction: column;
       padding: 0;
@@ -334,7 +334,7 @@
       border: none;
     }
     .short-box {
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       margin: 0px 20px 0 20px;
     }
@@ -501,7 +501,7 @@
     width: 500px;
     margin: 10px 0 38px 25px;
     position: relative;
-    left: 0px;
+    left: 100px;
   }
 
   /* shorten box */
@@ -607,6 +607,7 @@
 
   .boost {
     background-image: url("images/bg-boost-mobile.svg");
+    background-position: 68px 0px;
     height: 300px;
   }
 
